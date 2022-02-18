@@ -17,11 +17,19 @@ section h1{
     height: 20px;
     width: 100%;
     background-color: rgba(248, 245, 252, 0.671);
-    padding-top: -10px;
-    text-decoration: none;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(249, 242, 253, 0.863);
+    
 }
 
-
+·nav-bar p{
+    text-decoration: none;
+}
 
  
 ul{
@@ -36,11 +44,6 @@ ul{
 
 }
 
-#logo2{
-    color: blue;
-    height: 30px;
-    width: 30px;
-}
 
 h2{
     font-size: 45px;
@@ -51,16 +54,16 @@ h2{
 }
 
 form{
-    height: 300px;
+    height: 350px;
     width: 300px;
     background-color: rgba(64, 75, 230, 0.609);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px 600px 150px 685px;
-    border-radius: 30px 30px;
+    margin: 40px 300px 115px 385px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(255, 255, 255); 
+    border-radius: 30px 30px;
 }
 
 .form-group{
@@ -68,8 +71,10 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    border-radius: 30px 30px;
+
 }
+
 
 button{
     height: 50px;
@@ -79,6 +84,21 @@ button{
     font-size: 19px;
     color: rgb(102, 22, 139);
 }
+
+.form-control{
+    height: 20px;
+    width: 200px;
+    border-radius: 30px;
+    border-style: none;
+    margin: 5px 5px 5px 5px;
+
+}
+
+input{
+    text-align: center;
+}
+
+
 footer{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

@@ -1,0 +1,66 @@
+body{
+    background: url('https://maderayconstruccion.com/wp-content/uploads/2018/12/maderayconstruccion-stepienybarno-grupo-finsa-regalos-de-madera-1-870x580.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(9, 38, 136, 0.863);
+    display: flex;
+    justify-content: center;
+    display: table-caption;
+}
+
+.button {
+    height: 80px;
+    width: 90px;
+    display: inline-flex;
+    height: 20px;
+    width: 100%;  
+    text-decoration: none;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+button{
+    height: 200px;
+    width: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:rgba(251, 251, 251, 0.863);
+    background-color: rgb(23, 35, 146);
+    border-style: none;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+
+#submit{
+    height: 60px;
+    width: 100px;
+    border-radius: 40px;
+    border-color: rgb(245, 245, 245);
+    background-color: rgb(78, 78, 184);
+    border-style: groove;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+
+h2{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+
+
+
